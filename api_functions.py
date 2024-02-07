@@ -7,7 +7,7 @@ import pyarrow
 
 # Datos a usar
 
-df_reviews = pd.read_parquet('data\df_reviews_as.parquet')
+df_reviews = pd.read_parquet('data/df_reviews_as.parquet')
 df_gastos_items = pd.read_parquet('data/df_gastos_items.parquet')
 df_playtime_forever = pd.read_parquet('data/df_playtime_forever.parquet')
 df_items_developer = pd.read_parquet('data/df_items_developer.parquet')
